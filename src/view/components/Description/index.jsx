@@ -1,8 +1,9 @@
 import empresa from '../../../assets/empresa.svg';
+import { Button } from '../Button';
 
 export function Description() {
   return (
-    <div className="flex justify-around px-32 items-center pt-16 shadow-lg">
+    <div id='description' className="flex justify-around px-32 items-center pt-16 shadow-lg">
       <div className='max-w-xl'>
         <h1 className='font-poppins font-bold text-7xl leading-[1.05]'>
           Colóquio de
@@ -13,14 +14,7 @@ export function Description() {
         <p className='font-poppins font-semibold text-lg my-12'>
           Conectando entusiastas, profissionais e curiosos do mundo de tecnologia.
         </p>
-        <button
-          className='
-            font-poppins font-semibold border rounded-2xl
-            border-gray-500 px-6 py-3 text-[#6750A4] hover:bg-[#6750A4]
-            hover:text-white transition duration-300'
-        >
-          Quero participar do evento
-        </button>
+        <Button text='Quero participar do evento'/>
       </div>
       <div className='w-[600px]'>
         <img src={empresa} alt="Empresa" className='w-full'/>
