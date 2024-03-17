@@ -1,7 +1,7 @@
 export function About() {
   return (
-    <div>
-      <h1>Sobre</h1>
+    <div id="about" className="flex justify-around px-32 items-center mt-16">
+
     </div>
   );
 }
