@@ -7,7 +7,7 @@ import map from '../../../assets/map.svg';
 
 export function Schedule() {
   return (
-    <div id="schedule" className="flex justify-around pt-16 pb-8 px-32 items-center shadow-lg-up">
+    <div id="schedule" className="flex justify-around pt-16 pb-8 px-32 items-center shadow-lg-combined">
       <div>
         <h1 className='font-poppins font-bold text-4xl'>
           Programação<span className='text-[#7AC4E0]'>.</span>

@@ -2,6 +2,7 @@ import { About } from "../../components/About";
 import { Description } from "../../components/Description";
 import { Header } from "../../components/Header";
 import { Schedule } from "../../components/Schedule";
+import { Sponsors } from "../../components/Sponsors";
 
 export function Home() {
   return (
@@ -11,6 +12,7 @@ export function Home() {
         <Description />
         <About />
         <Schedule />
+        <Sponsors />
       </main>
     </>
   )

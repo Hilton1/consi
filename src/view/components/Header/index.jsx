@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 export function Header() {
   return (
     <header className='fixed w-full flex justify-between items-center px-32 py-4 border-b-2 bg-white z-50'>
-        <Link
+      <Link
         to='description'
         spy={true}
         smooth={true}
