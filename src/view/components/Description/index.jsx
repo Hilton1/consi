@@ -2,7 +2,7 @@ import empresa from '../../../assets/empresa.svg';
 
 export function Description() {
   return (
-    <div className="flex justify-around px-32 items-center mt-16">
+    <div className="flex justify-around px-32 items-center pt-16 shadow-lg">
       <div className='max-w-xl'>
         <h1 className='font-poppins font-bold text-7xl leading-[1.05]'>
           Colóquio de
