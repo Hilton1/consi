@@ -28,7 +28,7 @@ export function Footer() {
             className='max-w-8'
           />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/consi_ifal/" target='_blank'>
           <img
             src={instagram}
             alt="Instagram"
