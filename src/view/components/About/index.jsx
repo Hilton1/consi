@@ -2,7 +2,7 @@ import casal from '../../../assets/casal.svg';
 
 export function About() {
   return (
-    <div id="about" className="lg:flex lg:justify-around px-4 lg:px-16 xl:px-32 items-center pt-16 gap-8">
+    <div id="about" className="lg:flex lg:justify-around px-4 lg:px-16 xl:px-32 items-center py-16 gap-8">
       <div className='flex justify-center xl:max-w-xl lg:max-w-lg'>
         <div className='md:w-[500px]'>
           <img src={casal} alt="Casal" className='w-full'/>
