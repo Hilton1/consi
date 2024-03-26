@@ -1,7 +1,5 @@
-import linkedin from '../../../assets/linkedin.svg';
-import twitter from '../../../assets/twitter.svg';
-import facebook from '../../../assets/facebook.svg';
 import instagram from '../../../assets/instagram.svg';
+import tiktok from '../../../assets/tiktok.svg';
 
 export function Footer() {
   return (
@@ -9,35 +7,21 @@ export function Footer() {
       <div className='flex gap-3'>
         <a href="">
           <img
-            src={linkedin}
-            alt="LinkedIn"
-            className='max-w-8'
-          />
-        </a>
-        <a href="">
-          <img
-            src={twitter}
-            alt="Twitter"
-            className='max-w-8'
-          />
-        </a>
-        <a href="">
-          <img
-            src={facebook}
-            alt="Facebook"
-            className='max-w-8'
+            src={tiktok}
+            alt="tiktok"
+            className='max-w-6 md:max-w-8'
           />
         </a>
         <a href="https://www.instagram.com/consi_ifal/" target='_blank'>
           <img
             src={instagram}
             alt="Instagram"
-            className='max-w-8'
+            className='max-w-6 md:max-w-8'
           />
         </a>
       </div>
 
-      <p className='text-blue-opacity'>CONSI - Colóquio de Estudantes de Sistemas de Informação</p>
+      <p className='text-[12px] md:text-base'>CONSI - Colóquio de Estudantes de Sistemas de Informação</p>
     </div>
   )
 }
