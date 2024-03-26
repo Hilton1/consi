@@ -5,10 +5,13 @@ import logo from '../../../assets/logo.svg';
 import gallery_blue from '../../../assets/gallery_blue.svg';
 import gallery_purple from '../../../assets/gallery_purple.svg';
 
-
 import 'swiper/css';
 
+import { useEffect, useState } from 'react';
+
 export function Sponsors() {
+  const [slidePerView, setSliderPerView] = useState(2);
+
   const people = [
     { img: gallery_blue, name: 'Hilton', type: 1 },
     { img: gallery_blue, name: 'Hilton', type: 1 },
@@ -21,12 +24,34 @@ export function Sponsors() {
     { img: gallery_blue, name: 'Hilton', type: 1 },
     { img: gallery_blue, name: 'Hilton', type: 1 },
     { img: gallery_blue, name: 'Hilton', type: 1 }
-  ]
+  ];
+
+  useEffect(() => {
+    function handleResize(){
+      if (window.innerWidth <= 425) {
+        setSliderPerView(2.2);
+      } else if (window.innerWidth > 425 & window.innerWidth <= 768) {
+        setSliderPerView(3.2);
+      } else if (window.innerWidth > 768 & window.innerWidth <= 1024) {
+        setSliderPerView(4.2);
+      } else {
+        setSliderPerView(6.2);
+      }
+    }
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.addEventListener("resize", handleResize);
+    }
+  });
 
   return (
     <div
       id="sponsors"
-      className="py-32 px-32 shadow-lg-up relative h-full"
+      className="py-32 px-4 lg:px-16 xl:px-32 shadow-lg-up relative h-full"
     >
       <div
         className="absolute inset-0 bg-no-repeat bg-center bg-contain"
@@ -46,7 +71,7 @@ export function Sponsors() {
         </div>
 
         <Swiper
-          slidesPerView={7.4}
+          slidesPerView={slidePerView}
           loop={true}
         >
           {
@@ -57,6 +82,7 @@ export function Sponsors() {
             ))
           }
         </Swiper>
+
       </div>
     </div>
   )
