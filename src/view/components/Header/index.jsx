@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import logo from '../../../assets/logo.svg';
+import Modal from '../Modal';
 import { LinkHeader } from './components/LinkHeader';
 import { Link } from 'react-scroll';
 
 export function Header() {
+  const [ modalOpen, setModalOpen ] = useState(false);
+
+  const handleModal = () => {
+    setModalOpen(!modalOpen);
+  }
+
   return (
     <header className='fixed w-full flex justify-between items-center px-32 py-4 border-b-2 bg-white z-50'>
       <Link
@@ -21,9 +29,10 @@ export function Header() {
         <LinkHeader text="Programação" to="schedule" />
         <LinkHeader text="Organização e Patrocinadores" to="sponsors" />
 
-        <button className='bg-[#6750A4] py-4 px-10 rounded-full text-white font-poppins font-[600]'>
+        <button onClick={handleModal} className='bg-[#6750A4] py-4 px-10 rounded-full text-white font-poppins font-[600]'>
           Inscrever-se
         </button>
+        <Modal open={modalOpen} onClose={handleModal} />
       </div>
     </header>
   );
