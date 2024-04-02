@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 export function Header() {
   return (
-    <header className='fixed w-full flex justify-between items-center px-32 py-4 border-b-2 bg-white z-50'>
+    <header className='fixed w-full flex justify-between items-center px-4 lg:px-16 xl:px-32 py-4 border-b-2 bg-white z-50'>
       <Link
         to='description'
         spy={true}
@@ -13,10 +13,10 @@ export function Header() {
         duration={500}
         className='cursor-pointer'
       >
-        <img src={logo} alt="Logo Consi" className='max-w-24' />
+        <img src={logo} alt="Logo Consi" className='max-w-16 md:max-w-24' />
       </Link>
 
-      <div className='flex justify-between gap-6 items-center'>
+      <div className='lg:flex justify-between gap-2 md:gap-6 items-center hidden'>
         <LinkHeader text="O que é o CONSI?" to="about" />
         <LinkHeader text="Programação" to="schedule" />
         <LinkHeader text="Organização e Patrocinadores" to="sponsors" />
