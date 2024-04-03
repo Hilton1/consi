@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/logo.png';
 import { LinkHeader } from './components/LinkHeader';
 import { Link } from 'react-scroll';
 
@@ -13,13 +13,14 @@ export function Header() {
         duration={500}
         className='cursor-pointer'
       >
-        <img src={logo} alt="Logo Consi" className='max-w-16 md:max-w-24' />
+        <img src={logo} alt="Logo Cosi" className='max-w-16 md:max-w-24' />
       </Link>
 
       <div className='lg:flex justify-between gap-2 md:gap-6 items-center hidden'>
-        <LinkHeader text="O que é o CONSI?" to="about" />
+        <LinkHeader text="O que é o COSI?" to="about" />
         <LinkHeader text="Programação" to="schedule" />
-        <LinkHeader text="Organização e Patrocinadores" to="sponsors" />
+        <LinkHeader text="Palestrantes" to="speakers" />
+        <LinkHeader text="Patrocinadores" to="sponsors" />
 
         <button className='bg-[#6750A4] py-4 px-10 rounded-full text-white font-poppins font-[600]'>
           Inscrever-se

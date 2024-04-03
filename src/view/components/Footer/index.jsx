@@ -21,7 +21,7 @@ export function Footer() {
         </a>
       </div>
 
-      <p className='text-[12px] md:text-base'>CONSI - Colóquio de Estudantes de Sistemas de Informação</p>
+      <p className='text-[12px] md:text-base'>COSI - Colóquio de Estudantes de Sistemas de Informação</p>
     </div>
   )
 }
