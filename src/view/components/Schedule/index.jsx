@@ -14,7 +14,7 @@ export function Schedule() {
         </h1>
         <div className='xl:max-w-sm font-poppins text-lg text-justify md:text-center lg:text-justify lg:text-xl mt-5'>
           <p className='mb-10'>
-            Nossa programação contará com palestras, oficinas, minicursos e muito networking.
+            Nossa programação contará com palestras, oficinas, minicursos, competições e muito networking!
           </p>
         </div>
 

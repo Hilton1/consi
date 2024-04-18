@@ -14,6 +14,7 @@ import vitor_melo from '../../../assets/vitor_melo.jpg';
 import laiane from '../../../assets/laiane.jpg';
 import luiz from '../../../assets/luiz.png';
 import izabella from '../../../assets/izabella.jpeg';
+import eliezir from '../../../assets/eliezir.jpeg';
 
 import 'swiper/css';
 
@@ -70,6 +71,13 @@ export function Speakers() {
       img: joao_paulo,
       name: 'João Paulo Falcão',
       tema: 'Robótica Sucational',
+      tipo_atracao: 'Oficina',
+      type: 1
+    },
+    {
+      img: eliezir,
+      name: 'Eliezir Moreira',
+      tema: 'React Native',
       tipo_atracao: 'Oficina',
       type: 1
     },

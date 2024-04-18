@@ -5,6 +5,7 @@ import { Schedule } from "../../components/Schedule";
 import { Speakers } from "../../components/Speakers";
 import { Sponsors } from "../../components/Sponsors";
 import { Footer } from "../../components/Footer";
+import { Equipe } from "../../components/Equipe";
 
 export function Home() {
   return (
@@ -16,6 +17,7 @@ export function Home() {
         <Schedule />
         <Speakers />
         <Sponsors />
+        <Equipe />
         <Footer />
       </main>
     </>
