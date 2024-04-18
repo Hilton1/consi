@@ -19,7 +19,7 @@ export function Header() {
       <div className='lg:flex justify-between gap-2 md:gap-6 items-center hidden'>
         <LinkHeader text="O que é o COSI?" to="about" />
         <LinkHeader text="Programação" to="schedule" />
-        <LinkHeader text="Palestrantes" to="speakers" />
+        <LinkHeader text="Atrações" to="speakers" />
         <LinkHeader text="Patrocinadores" to="sponsors" />
         <LinkHeader text="Equipe COSI" to="equipe" />
 
