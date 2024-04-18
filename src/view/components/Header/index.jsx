@@ -21,6 +21,7 @@ export function Header() {
         <LinkHeader text="Programação" to="schedule" />
         <LinkHeader text="Palestrantes" to="speakers" />
         <LinkHeader text="Patrocinadores" to="sponsors" />
+        <LinkHeader text="Equipe COSI" to="equipe" />
 
         <button className='bg-[#6750A4] py-4 px-10 rounded-full text-white font-poppins font-[600]'>
           Inscrever-se

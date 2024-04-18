@@ -35,11 +35,11 @@ export function Schedule() {
           text='Em ambos os dias o início será às <b>18:00h</b> e término às <b>21:30h</b>'
         />
 
-        <a href="https://www.google.com/maps/search/Audit%C3%B3rio+Oscar+S%C3%A1tyro/@-9.6646804,-35.7343894,17z?entry=ttu" target='_blank'>
+        <a href="https://www.google.com/maps/place/Instituto+Federal+de+Alagoas+-+Campus+Macei%C3%B3/@-9.6640343,-35.7351965,17z/data=!3m1!4b1!4m6!3m5!1s0x701457996307ad5:0x1d22c2c44f26f853!8m2!3d-9.6640396!4d-35.7303309!16s%2Fg%2F1229dxbv?entry=ttu" target='_blank'>
           <Card
             icon={map}
             title="Local"
-            text='Auditório Oscar Sátyro - Instituto Federal de Alagoas (IFAL)'
+            text='Instituto Federal de Alagoas (IFAL) - Campus Maceió'
           />
 
         </a>
