@@ -26,13 +26,13 @@ export function Schedule() {
         <Card
           icon={calendar}
           title="Data"
-          text='O evento ocorrerá nos dias <b>29</b> e <b>30</b> de <b>Abril de 2024</b>'
+          text='O evento ocorrerá no dia <b>04</b> de <b>Maio de 2024</b>'
         />
 
         <Card
           icon={clock}
           title="Horário"
-          text='Em ambos os dias o início será às <b>18:00h</b> e término às <b>21:30h</b>'
+          text='O credenciamento será às <b>08:30h</b>, com a abertura do evento sendo às <b>09:00h</b>. O encerramento será de <b>16:00h</b>'
         />
 
         <a href="https://www.google.com/maps/place/Instituto+Federal+de+Alagoas+-+Campus+Macei%C3%B3/@-9.6640343,-35.7351965,17z/data=!3m1!4b1!4m6!3m5!1s0x701457996307ad5:0x1d22c2c44f26f853!8m2!3d-9.6640396!4d-35.7303309!16s%2Fg%2F1229dxbv?entry=ttu" target='_blank'>
