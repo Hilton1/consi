@@ -18,7 +18,7 @@ export function Description() {
           </p>
         </div>
 
-        <Button text='Quero participar do evento'/>
+        <Button text='Quero participar do evento' link={'https://doity.com.br/cosi#registration'}/>
       </div>
       <div className='md:w-[500px]'>
         <img src={empresa} alt="Empresa" className='w-full'/>
