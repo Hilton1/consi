@@ -19,7 +19,7 @@ export function Schedule() {
         </div>
 
         <div className='text-center mb-6 lg:text-left'>
-          <Button text='Conferir programação detalhada' />
+          <Button text='Conferir programação detalhada' link={'https://doity.com.br/cosi#schedule'}/>
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-4'>

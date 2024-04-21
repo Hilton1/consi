@@ -23,9 +23,13 @@ export function Header() {
         <LinkHeader text="Patrocinadores" to="sponsors" />
         <LinkHeader text="Equipe COSI" to="equipe" />
 
-        <button className='bg-[#6750A4] py-4 px-10 rounded-full text-white font-poppins font-[600]'>
+        <a
+          className='bg-[#6750A4] py-4 px-10 rounded-full text-white font-poppins font-[600]'
+          href='https://doity.com.br/cosi#registration'
+          target='_blanck'
+        >
           Inscrever-se
-        </button>
+        </a>
       </div>
     </header>
   );
