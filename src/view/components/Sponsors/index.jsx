@@ -1,6 +1,7 @@
 import { Card } from './components/Card';
 
 import mesha from '../../../assets/mesha.jpg';
+import oticas_felix from '../../../assets/oticas_felix.jpg';
 
 import 'swiper/css';
 
@@ -8,6 +9,7 @@ export function Sponsors() {
 
   const people = [
     { img: mesha, name: 'Mesha. tecnologia', type: 2 },
+    { img: oticas_felix, name: 'Óticas Felix', type: 2 },
   ];
 
   return (
