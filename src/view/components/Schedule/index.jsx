@@ -26,7 +26,7 @@ export function Schedule() {
         <Card
           icon={calendar}
           title="Data"
-          text='O evento ocorrerá no dia <b>04</b> de <b>Maio de 2024</b>'
+          text='O evento ocorrerá no dia <b>18</b> de <b>Maio de 2024</b>'
         />
 
         <Card
