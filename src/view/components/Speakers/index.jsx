@@ -9,7 +9,6 @@ import gustavo from '../../../assets/gustavo.jpeg';
 import jonathas from '../../../assets/jonathas.jpeg';
 import urandy from '../../../assets/urandy.jpeg';
 import cristhian from '../../../assets/cristhian.jpg';
-import joao_paulo from '../../../assets/joao_paulo.jpg';
 import pedro_augusto from '../../../assets/pedro_augusto.jpg';
 import vitor_melo from '../../../assets/vitor_melo.jpg';
 import laiane from '../../../assets/laiane.jpg';
@@ -66,13 +65,6 @@ export function Speakers() {
       tema: 'Desenvolvedor web com vue.js',
       tipo_atracao: 'Palestra',
       area_atuacao: 'Desenvolvedor Frontend na empresa Weni',
-      type: 1
-    },
-    {
-      img: joao_paulo,
-      name: 'João Paulo Falcão',
-      tema: 'Robótica Sucational',
-      tipo_atracao: 'Oficina',
       type: 1
     },
     {
