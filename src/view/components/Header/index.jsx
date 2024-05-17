@@ -21,6 +21,7 @@ export function Header() {
         <LinkHeader text="Programação" to="schedule" />
         <LinkHeader text="Atrações" to="speakers" />
         <LinkHeader text="Patrocinadores" to="sponsors" />
+        <LinkHeader text="Apoio" to="apoio" />
         <LinkHeader text="Equipe COSI" to="equipe" />
 
         <a

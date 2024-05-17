@@ -6,6 +6,7 @@ import { Speakers } from "../../components/Speakers";
 import { Sponsors } from "../../components/Sponsors";
 import { Footer } from "../../components/Footer";
 import { Equipe } from "../../components/Equipe";
+import { Apoio } from "../../components/Apoio";
 
 export function Home() {
   return (
@@ -17,6 +18,7 @@ export function Home() {
         <Schedule />
         <Speakers />
         <Sponsors />
+        <Apoio />
         <Equipe />
         <Footer />
       </main>
