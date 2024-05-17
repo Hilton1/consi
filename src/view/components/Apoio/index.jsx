@@ -18,7 +18,7 @@ export function Apoio() {
 
   return (
     <div
-      id="sponsors"
+      id="apoio"
       className="py-32 px-4 lg:px-16 xl:px-32 shadow-lg-up relative h-full"
     >
       <div className="text-center">
