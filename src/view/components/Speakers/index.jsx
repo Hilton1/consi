@@ -4,11 +4,12 @@ import { Modal } from '../Modal';
 
 import logo from '../../../assets/logo.png';
 
-import breno from '../../../assets/breno.jpg';
+import francisco from '../../../assets/francisco.jpeg';
+import gustavo from '../../../assets/gustavo.jpeg';
+import jonathas from '../../../assets/jonathas.jpeg';
+import urandy from '../../../assets/urandy.jpeg';
 import cristhian from '../../../assets/cristhian.jpg';
-import aldry from '../../../assets/aldry.jpg';
 import joao_paulo from '../../../assets/joao_paulo.jpg';
-import higor from '../../../assets/higor.jpg';
 import pedro_augusto from '../../../assets/pedro_augusto.jpg';
 import vitor_melo from '../../../assets/vitor_melo.jpg';
 import laiane from '../../../assets/laiane.jpg';
@@ -36,19 +37,27 @@ export function Speakers() {
 
   const people = [
     {
-      img: aldry,
-      name: 'Aldry',
-      tema: 'Confiabilidade como pilar de arquiteturas resilientes',
+      img: francisco,
+      name: 'Francisco Abud',
       tipo_atracao: 'Palestra',
-      area_atuacao: 'Site realibity engineer',
       type: 1
     },
     {
-      img: breno,
-      name: 'Breno Félix',
-      tema: 'Experiência do usuário (ux) e a relação com estereótipos nos sistemas',
+      img: jonathas,
+      name: 'Jônathas Nunes',
       tipo_atracao: 'Palestra',
-      area_atuacao: 'Ciência da computação',
+      type: 1
+    },
+    {
+      img: gustavo,
+      name: 'Gustavo Costa',
+      tipo_atracao: 'Palestra',
+      type: 1
+    },
+    {
+      img: urandy,
+      name: 'Urandy Carlos',
+      tipo_atracao: 'Palestra',
       type: 1
     },
     {
@@ -57,14 +66,6 @@ export function Speakers() {
       tema: 'Desenvolvedor web com vue.js',
       tipo_atracao: 'Palestra',
       area_atuacao: 'Desenvolvedor Frontend na empresa Weni',
-      type: 1
-    },
-    {
-      img: higor,
-      name: 'Higor',
-      tema: 'Inteligência artificial na estratégia de negócios',
-      tipo_atracao: 'Palestra',
-      area_atuacao: 'IT Business Partner',
       type: 1
     },
     {
@@ -160,7 +161,7 @@ export function Speakers() {
 
         <div className='font-poppins text-lg text-justify md:text-center lg:text-justify lg:text-xl mt-5'>
           <p className='mb-10 text-center'>
-            Confira abaixo as pessoas que irão ministrar as palestras, minicursos e oficinas! (clique na pessoa para mais detalhes)
+            Confira abaixo as pessoas que irão ministrar as palestras, minicursos e oficinas!
           </p>
         </div>
 

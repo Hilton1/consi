@@ -21,10 +21,12 @@ export function Modal({ speaker, onClose }) {
           <div className="flex flex-col items-start">
             <p className="font-poppins text-justify font-bold text-xl underline">{speaker.tipo_atracao}</p>
             <h2 className="font-poppins text-justify font-bold text-lg mb-3">{speaker.name}</h2>
-            <div className="text-justify">
-              <p><strong>Tema:</strong></p>
-              <p>{speaker.tema}</p>
-            </div>
+            {speaker.tema && (
+              <div className="text-justify">
+                <p><strong>Tema:</strong></p>
+                <p>{speaker.tema}</p>
+              </div>
+            )}
 
             {speaker.area_atuacao && (
               <div className="text-justify mt-2">
